@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}View Excel File{% endblock %}
+
+{% block content %}
+    <h1>View Excel File</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Sample ID</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in tables %}
+                <tr>
+                    <td>{{ row['SampleID'] }}</td>
+                    <td>{{ row['Weight'] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

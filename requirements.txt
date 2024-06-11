@@ -1,0 +1,7 @@
+Flask
+pymongo
+bcrypt
+pandas
+openpyxl
+whisper
+pydub
