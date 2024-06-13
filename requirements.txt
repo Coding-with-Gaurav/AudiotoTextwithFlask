@@ -4,3 +4,4 @@ flask-pymongo==2.3.0
 pandas==1.4.0
 pydub==0.25.1
 whisper==1.0.0
+werkzeug==2.0.3
