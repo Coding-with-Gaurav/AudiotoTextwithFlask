@@ -8,7 +8,7 @@ import pandas as pd
 from pydub import AudioSegment
 
 app = Flask(__name__)
-app.secret_key = "AudiotoText"  
+app.secret_key = "AudiotoText" 
 
 # MongoDB configuration
 app.config["MONGO_URI"] = "mongodb://localhost:27017/audiototext"
